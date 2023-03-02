@@ -5,9 +5,9 @@ const submit = document.getElementById("submit");
 
 function validate() {
   if (pass.value === conf.value) {
-    warn.textContent = "";
+    pass.setCustomValidity("");
   } else {
-    warn.textContent = "* Passwords don't match";
+    pass.setCustomValidity("Passwords don't match");
   }
 }
 

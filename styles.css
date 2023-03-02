@@ -1,6 +1,7 @@
 body{
     display: flex;
     font-family: 'Poppins', sans-serif;
+    /* overflow: scrolld; */
 }
 
 .left{
@@ -33,4 +34,85 @@ body{
     justify-content: center;
     position: relative;
     top: 40%;
+}
+
+.header{
+    background-color:rgb(240, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 20px;
+    height: 45vh;
+}
+
+.first, .second{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+.second{
+    margin-bottom: 30px;
+}
+
+.moto{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+
+.box-shadow{
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgb(197, 197, 197);
+}
+
+label{
+    display: block;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 20px;
+}
+
+button{
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    font-size: 15px;
+}
+button:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+
+.log{
+    margin-top: 15px;
+    margin-left: 60px;
+}   
+a{
+    color: #596D48;
+}
+
+.non:focus{
+    border: blue px solid;
 }

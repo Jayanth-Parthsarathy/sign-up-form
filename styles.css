@@ -116,3 +116,11 @@ a{
 .non:focus{
     border: blue px solid;
 }
+
+#warn{
+    position: absolute;
+    bottom:115px;
+    right: 545px;
+    color: red;
+    font-size: 12px;
+}
